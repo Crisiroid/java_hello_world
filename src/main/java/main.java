@@ -1,13 +1,14 @@
 public class main {
     public static void main(String[] args){
-        //importing input class
+        /*//importing input class
         input Input = new input();
         //using import method
         input.input();
-
         //operators
         operator Operator = new operator();
         Operator.operator();
+
+
         int h = 2;
         long w = 12312421315214l;
         float f = 1.23124213f;
@@ -18,6 +19,9 @@ public class main {
         x = y;
         y = temp;
         System.out.println("y: " + y);
-        System.out.println("x: " + x);
+        System.out.println("x: " + x);*/
+        //gui application
+        gui_masic GUI = new gui_masic();
+        GUI.gui_basic();
     }
 }
