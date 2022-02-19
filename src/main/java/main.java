@@ -1,27 +1,13 @@
 public class main {
     public static void main(String[] args){
-        /*//importing input class
-        input Input = new input();
-        //using import method
-        input.input();
-        //operators
-        operator Operator = new operator();
-        Operator.operator();
-
-
-        int h = 2;
-        long w = 12312421315214l;
-        float f = 1.23124213f;
-        String x = "water";
-        String y = "kool-aid";
-        String temp;
-        temp = x;
-        x = y;
-        y = temp;
-        System.out.println("y: " + y);
-        System.out.println("x: " + x);*/
         //gui application
         gui_masic GUI = new gui_masic();
         GUI.gui_basic();
+        //gui finding the max number
+        math Ma = new math();
+        Ma.m();
+        //gui random number generator between 1 to 300
+        random random = new random();
+        random.rr();
     }
 }
